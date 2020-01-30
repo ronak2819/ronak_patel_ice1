@@ -5,9 +5,9 @@ package cardgameweek4;
  * @author dancye, 2019
  */
 public class Card {
-    
-        public enum Suit {HEARTS, CLUBS,SPADES,DIAMONDS};
-        public enum Value{ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING};
+       
+        public enum Suit {HEARTS, CLUBS,SPADES,DIAMONDS}; // thype of cards
+        public enum Value{ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING};  // number of cards
         private final Suit suit;
         private final Value value;
         
@@ -24,4 +24,9 @@ public class Card {
 	public Suit getSuit() {
 		return this.suit;
         }
+	
+	public void display()
+	{
+		// this method is for showing pull
+	}
 }
