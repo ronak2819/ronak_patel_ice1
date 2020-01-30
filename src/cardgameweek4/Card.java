@@ -10,6 +10,8 @@ public class Card {
         public enum Value{ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING};  // number of cards
         private final Suit suit;
         private final Value value;
+        int joker;
+       
         
         public Card(Suit s, Value gVal)
         {
@@ -29,4 +31,9 @@ public class Card {
 	{
 		// this method is for showing pull
 	}
+        
+        public static void joker()
+        {
+            
+        }
 }
